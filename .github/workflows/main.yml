@@ -1,0 +1,7 @@
+- name: Push to gh-pages
+  run: |
+    cd out
+    git checkout -B gh-pages
+    git add .
+    git commit -m "Update GitHub Pages"
+    git push origin gh-pages --force
