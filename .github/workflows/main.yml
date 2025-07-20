@@ -20,8 +20,8 @@ jobs:
 
       - name: Clone target repo (gh-pagesブランチ)
         run: |
-          git clone --depth 1 -b gh-pages https://x-access-token:${{ secrets.GH_PAT }}@github.com/ユーザー名/公開リポジトリ名.git out || \
-          git clone --depth 1 https://x-access-token:${{ secrets.GH_PAT }}@github.com/ユーザー名/公開リポジトリ名.git out
+          git clone --depth 1 -b gh-pages https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuneburgNoble/EidolonCrown.git out || \
+          git clone --depth 1 https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuneburgNoble/EidolonCrown.git out
           rm -rf out/*
           cp index.html out/
 
