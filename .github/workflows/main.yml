@@ -1,7 +1,34 @@
-- name: Push to gh-pages
-  run: |
-    cd out
-    git checkout -B gh-pages
-    git add .
-    git commit -m "Update GitHub Pages"
-    git push origin gh-pages --force
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 自分のソースリポジトリのmainブランチにpushがあったら動く
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v3
+
+      - name: Setup git config
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Clone target repo (gh-pagesブランチ)
+        run: |
+          git clone --depth 1 -b gh-pages https://x-access-token:${{ secrets.GH_PAT }}@github.com/ユーザー名/公開リポジトリ名.git out || \
+          git clone --depth 1 https://x-access-token:${{ secrets.GH_PAT }}@github.com/ユーザー名/公開リポジトリ名.git out
+          rm -rf out/*
+          cp index.html out/
+
+      - name: Commit and push to gh-pages
+        run: |
+          cd out
+          git checkout -B gh-pages
+          git add .
+          git commit -m "Update GitHub Pages"
+          git push origin gh-pages --force
