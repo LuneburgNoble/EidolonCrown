@@ -1,31 +1,30 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages (EidolonCrown)
 
 on:
   push:
     branches:
-      - main  # 自分のソースリポジトリのmainブランチにpushがあったら動く
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source repo
         uses: actions/checkout@v3
 
-      - name: Setup git config
+      - name: Setup Git
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Clone target repo (gh-pagesブランチ)
+      - name: Clone target repo
         run: |
           git clone --depth 1 -b gh-pages https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuneburgNoble/EidolonCrown.git out || \
           git clone --depth 1 https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuneburgNoble/EidolonCrown.git out
           rm -rf out/*
           cp index.html out/
 
-      - name: Commit and push to gh-pages
+      - name: Push to gh-pages
         run: |
           cd out
           git checkout -B gh-pages
