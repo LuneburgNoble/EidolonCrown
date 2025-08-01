@@ -24,6 +24,8 @@ jobs:
           git clone --depth 1 https://x-access-token:${{ secrets.GH_PAT }}@github.com/LuneburgNoble/EidolonCrown.git out
           rm -rf out/*
           cp index.html out/
+          cp style.css out/
+          cp image.jpg out/  # ← 画像も必要なら追加
 
       - name: Commit and push to gh-pages
         run: |
