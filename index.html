@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <title>できたらできる</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <style>
+      body { font-family: sans-serif; text-align: center; padding: 2em; }
+      .lang { display: none; }
+      img.main-image { width: 300px; margin: 1em auto; }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <img src="image.jpg" alt="image" class="main-image">
-        <div class="text-block">
-            <p><br>創造と親密、友情の中で。</p>
-        </div>
+
+    <img src="image.jpg" alt="image" class="main-image">
+
+    <div class="lang" id="ja">
+        <p>🌕 創造が友情を育む。</p>
     </div>
+
+    <div class="lang" id="en">
+        <p>🌕 Creativity nurtures friendship.</p>
+    </div>
+
+    <div class="lang" id="fr">
+        <p>🌕 La créativité nourrit l'amitié.</p>
+    </div>
+
+    <div class="lang" id="es">
+        <p>🌕 La creatividad fomenta la amistad.</p>
+    </div>
+
+    <div class="lang" id="pt">
+        <p>🌕 A criatividade cultiva a amizade.</p>
+    </div>
+
+    <script>
+        const lang = navigator.language.slice(0, 2);
+        const supported = ['ja', 'en', 'fr', 'es', 'pt'];
+        const showLang = supported.includes(lang) ? lang : 'en';
+        document.getElementById(showLang).style.display = 'block';
+    </script>
+
 </body>
 </html>
