@@ -5,36 +5,34 @@
 <title>できたらできる</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body { font-family: sans-serif; padding: 2em; }
-  .lang { display: none; }
-  .container {
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    max-width: 900px;
-    margin: 0 auto;
+  body {
+    font-family: sans-serif;
+    padding: 2em;
+    text-align: center;
   }
-  img.main-image {
+  .main-image {
     width: 600px;
     height: auto;
-    flex-shrink: 0;
+    display: block;
+    margin: 0 auto;
   }
   .text-block {
-    flex: 1;
-    word-wrap: break-word;
+    margin-top: 1em;  /* 画像と文章の間の空白 */
+  }
+  .lang {
+    display: none;
   }
 </style>
 </head>
 <body>
 
-<div class="container">
-  <img src="image.jpg" alt="image" class="main-image">
-  <div class="text-block lang" id="ja"><p> 感情の深みが自己表現を豊かにし、内面的な成長を促す。一方で、友人やコミュニティとのつながりが新たなアイデアや希望をもたらし、未来への展望を広げる。</p></div>
-  <div class="text-block lang" id="en"><p> The depth of emotions enriches self-expression and fosters inner growth. On the other hand, connections with friends and the community bring new ideas and hope, broadening our perspectives for the future.</p></div>
-  <div class="text-block lang" id="fr"><p> La profondeur des émotions enrichit l'expression de soi et favorise la croissance intérieure. D'autre part, les liens avec des amis et la communauté apportent de nouvelles idées et de l'espoir, élargissant ainsi les perspectives d'avenir.</p></div>
-  <div class="text-block lang" id="es"><p> La profundidad de las emociones enriquece la autoexpresión y fomenta el crecimiento interior. Por otro lado, las conexiones con amigos y la comunidad traen nuevas ideas y esperanzas, ampliando las perspectivas hacia el futuro.</p></div>
-  <div class="text-block lang" id="pt"><p> A profundidade das emoções enriquece a autoexpressão e promove o crescimento interior. Por outro lado, as conexões com amigos e a comunidade trazem novas ideias e esperanças, ampliando a perspectiva para o futuro.</p></div>
-</div>
+<img src="image.jpg" alt="image" class="main-image">
+
+<div class="text-block lang" id="ja"><p>感情や創造性が試練を伴いながら、自己表現や愛情の深まりを促す一方で、友情や未来への展望が広がり、仲間との絆が強まる。</p></div>
+<div class="text-block lang" id="en"><p>While emotions and creativity are accompanied by challenges that foster self-expression and deepen affection, friendships and visions for the future expand, strengthening bonds with companions.</p></div>
+<div class="text-block lang" id="fr"><p>Les émotions et la créativité, tout en étant accompagnées d'épreuves, favorisent l'expression de soi et l'approfondissement des sentiments, tandis que l'amitié et les perspectives d'avenir s'élargissent, renforçant ainsi les liens avec les camarades.</p></div>
+<div class="text-block lang" id="es"><p>Las emociones y la creatividad, acompañadas de pruebas, fomentan la autoexpresión y el profundo amor, mientras que se amplían las amistades y las perspectivas hacia el futuro, fortaleciendo los lazos con los compañeros.</p></div>
+<div class="text-block lang" id="pt"><p>As emoções e a criatividade, acompanhadas de desafios, promovem a autoexpressão e o aprofundamento do amor, enquanto ampliam a amizade e as perspectivas para o futuro, fortalecendo os laços com os companheiros.</p></div>
 
 <script>
   const lang = navigator.language.slice(0, 2);
