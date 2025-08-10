@@ -8,16 +8,28 @@
   body {
     font-family: sans-serif;
     padding: 2em;
-    text-align: center;
   }
-  .main-image {
-    width: 600px;
-    height: auto;
-    display: block;
+  .container {
+    max-width: 900px;
     margin: 0 auto;
   }
+  .image-text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  img.main-image {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+  }
   .text-block {
-    margin-top: 1em;  /* 画像と文章の間の空白 */
+    flex: 1 1 400px;
+    word-wrap: break-word;
+  }
+  .text-block p {
+    margin-top: 1em; /* 画像の下に1行空ける */
   }
   .lang {
     display: none;
@@ -26,13 +38,18 @@
 </head>
 <body>
 
-<img src="image.jpg" alt="image" class="main-image">
+<div class="container">
 
-<div class="text-block lang" id="ja"><p>感情や創造性が試練を伴いながら、自己表現や愛情の深まりを促す一方で、友情や未来への展望が広がり、仲間との絆が強まる。</p></div>
-<div class="text-block lang" id="en"><p>While emotions and creativity are accompanied by challenges that foster self-expression and deepen affection, friendships and visions for the future expand, strengthening bonds with companions.</p></div>
-<div class="text-block lang" id="fr"><p>Les émotions et la créativité, tout en étant accompagnées d'épreuves, favorisent l'expression de soi et l'approfondissement des sentiments, tandis que l'amitié et les perspectives d'avenir s'élargissent, renforçant ainsi les liens avec les camarades.</p></div>
-<div class="text-block lang" id="es"><p>Las emociones y la creatividad, acompañadas de pruebas, fomentan la autoexpresión y el profundo amor, mientras que se amplían las amistades y las perspectivas hacia el futuro, fortaleciendo los lazos con los compañeros.</p></div>
-<div class="text-block lang" id="pt"><p>As emoções e a criatividade, acompanhadas de desafios, promovem a autoexpressão e o aprofundamento do amor, enquanto ampliam a amizade e as perspectivas para o futuro, fortalecendo os laços com os companheiros.</p></div>
+  <div class="image-text-wrapper">
+    <img src="image.jpg" alt="image" class="main-image">
+    <div class="text-block lang" id="ja"><p>創造性が試され、友情が広がる。</p></div>
+    <div class="text-block lang" id="en"><p>"Creativity is tested, and friendships grow."</p></div>
+    <div class="text-block lang" id="fr"><p>La créativité est mise à l'épreuve et l'amitié s'épanouit.</p></div>
+    <div class="text-block lang" id="es"><p>La creatividad se pone a prueba y la amistad se expande.</p></div>
+    <div class="text-block lang" id="pt"><p>A criatividade é colocada à prova e a amizade se expande.</p></div>
+  </div>
+
+</div>
 
 <script>
   const lang = navigator.language.slice(0, 2);
