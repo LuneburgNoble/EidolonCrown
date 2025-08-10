@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>できたらできる</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body { font-family: sans-serif; text-align: center; padding: 2em; }
-      .lang { display: none; }
-      img.main-image { width: 300px; margin: 1em auto; }
-    </style>
+<meta charset="UTF-8">
+<title>できたらできる</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: sans-serif; padding: 2em; }
+  .lang { display: none; }
+  .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  img.main-image {
+    width: 600px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  .text-block {
+    flex: 1;
+    word-wrap: break-word;
+  }
+</style>
 </head>
 <body>
 
-    <img src="image.jpg" alt="image" class="main-image">
+<div class="container">
+  <img src="image.jpg" alt="image" class="main-image">
+  <div class="text-block lang" id="ja"><p> 心の奥深くで感じる孤独が、友人との絆やコミュニティとのつながりを強化し、共に夢を追い求める力となる。</p></div>
+  <div class="text-block lang" id="en"><p> The loneliness deeply felt in the heart strengthens the bonds with friends and the connections within the community, becoming a source of strength to pursue dreams together.</p></div>
+  <div class="text-block lang" id="fr"><p> La solitude ressentie au plus profond de soi renforce les liens avec les amis et les connexions avec la communauté, devenant ainsi une force pour poursuivre ensemble nos rêves.</p></div>
+  <div class="text-block lang" id="es"><p> La soledad que se siente en lo más profundo del corazón fortalece los lazos con los amigos y la conexión con la comunidad, convirtiéndose en una fuerza para perseguir sueños juntos.</p></div>
+  <div class="text-block lang" id="pt"><p> A solidão que se sente nas profundezas do coração fortalece os laços com os amigos e a conexão com a comunidade, tornando-se uma força para perseguir sonhos juntos.</p></div>
+</div>
 
-    <div class="lang" id="ja">
-        <p> 感情や創造性が育まれる場所では、自分の内面を探求し、他者とのつながりを深めることで、友情や目標が広がります。</p>
-    </div>
-
-    <div class="lang" id="en">
-        <p> In a place where emotions and creativity are nurtured, exploring one's inner self and deepening connections with others leads to the expansion of friendships and goals.</p>
-    </div>
-
-    <div class="lang" id="fr">
-        <p> Dans un lieu où les émotions et la créativité sont cultivées, explorer son intérieur et approfondir ses liens avec les autres permet d'élargir les amitiés et les objectifs.</p>
-    </div>
-
-    <div class="lang" id="es">
-        <p> En un lugar donde se cultivan las emociones y la creatividad, al explorar nuestro interior y profundizar nuestras conexiones con los demás, se expanden la amistad y los objetivos.</p>
-    </div>
-
-    <div class="lang" id="pt">
-        <p> Em um lugar onde emoções e criatividade são cultivadas, ao explorar o interior de si mesmo e aprofundar as conexões com os outros, amizades e objetivos se expandem.</p>
-    </div>
-
-    <script>
-        const lang = navigator.language.slice(0, 2);
-        const supported = ['ja', 'en', 'fr', 'es', 'pt'];
-        const showLang = supported.includes(lang) ? lang : 'en';
-        document.getElementById(showLang).style.display = 'block';
-    </script>
+<script>
+  const lang = navigator.language.slice(0, 2);
+  const supported = ['ja', 'en', 'fr', 'es', 'pt'];
+  const showLang = supported.includes(lang) ? lang : 'en';
+  document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+  document.getElementById(showLang).style.display = 'block';
+</script>
 
 </body>
 </html>
