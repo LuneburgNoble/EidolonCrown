@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>できたらできる</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
   body {
     font-family: sans-serif;
     padding: 2em;
   }
-  .container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  .image-text-wrapper {
-    display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    flex-wrap: wrap;
-  }
   img.main-image {
-    width: 300px;
-    height: auto;
-    flex-shrink: 0;
+    width: 600px;  /* 縦横倍 */
+    height: 600px;
+    display: block;
+    margin: 0 auto 1em auto; /* 下に1行空ける */
   }
   .text-block {
-    flex: 1 1 400px;
+    max-width: 600px;
+    margin: 0 auto;
     word-wrap: break-word;
-  }
-  .text-block p {
-    margin-top: 1em; /* 画像の下に1行空ける */
+    white-space: normal;
   }
   .lang {
     display: none;
@@ -38,18 +28,13 @@
 </head>
 <body>
 
-<div class="container">
+<img src="image.jpg" alt="image" class="main-image" />
 
-  <div class="image-text-wrapper">
-    <img src="image.jpg" alt="image" class="main-image">
-    <div class="text-block lang" id="ja"><p>創造性が試され、友情が広がる。</p></div>
-    <div class="text-block lang" id="en"><p>"Creativity is tested, and friendships grow."</p></div>
-    <div class="text-block lang" id="fr"><p>La créativité est mise à l'épreuve et l'amitié s'épanouit.</p></div>
-    <div class="text-block lang" id="es"><p>La creatividad se pone a prueba y la amistad se expande.</p></div>
-    <div class="text-block lang" id="pt"><p>A criatividade é colocada à prova e a amizade se expande.</p></div>
-  </div>
-
-</div>
+<div class="text-block lang" id="ja"><p>感情や内面の成長が、自己表現や創造性を促す。喜びや友情が広がることで、未来への希望が膨らむ。</p></div>
+<div class="text-block lang" id="en"><p>Emotional and inner growth fosters self-expression and creativity. As joy and friendship spread, hope for the future expands.</p></div>
+<div class="text-block lang" id="fr"><p>Les émotions et la croissance intérieure favorisent l'expression de soi et la créativité. En se répandant, la joie et l'amitié nourrissent l'espoir d'un avenir meilleur.</p></div>
+<div class="text-block lang" id="es"><p>El crecimiento emocional e interior fomenta la autoexpresión y la creatividad. A medida que se expanden la alegría y la amistad, se amplía la esperanza hacia el futuro.</p></div>
+<div class="text-block lang" id="pt"><p>O crescimento emocional e interior estimula a autoexpressão e a criatividade. À medida que a alegria e a amizade se espalham, a esperança para o futuro se expande.</p></div>
 
 <script>
   const lang = navigator.language.slice(0, 2);
