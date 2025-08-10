@@ -24,17 +24,28 @@
   .lang {
     display: none;
   }
+
+  /* スマホ対応 */
+  @media (max-width: 640px) {
+    img.main-image {
+      width: 90vw;
+      height: auto;
+    }
+    .text-block {
+      max-width: 90vw;
+    }
+  }
 </style>
 </head>
 <body>
 
 <img src="image.jpg" alt="image" class="main-image" />
 
-<div class="text-block lang" id="ja"><p>心の深い部分での葛藤が、創造性や自己表現を通じて新たな友情や連携を生む。内面的な変化が、社会的なつながりを豊かにする。</p></div>
-<div class="text-block lang" id="en"><p>The deep-seated conflicts within the heart give rise to new friendships and collaborations through creativity and self-expression. Inner transformations enrich social connections.</p></div>
-<div class="text-block lang" id="fr"><p>Les conflits profonds de l'âme engendrent de nouvelles amitiés et collaborations à travers la créativité et l'expression de soi. Les changements intérieurs enrichissent les liens sociaux.</p></div>
-<div class="text-block lang" id="es"><p>El conflicto en lo más profundo del corazón genera nuevas amistades y colaboraciones a través de la creatividad y la autoexpresión. Los cambios internos enriquecen las conexiones sociales.</p></div>
-<div class="text-block lang" id="pt"><p>O conflito nas profundezas do coração gera novas amizades e colaborações por meio da criatividade e da autoexpressão. As mudanças internas enriquecem as conexões sociais.</p></div>
+<div class="text-block lang" id="ja"><p>感情の表現や創造性が求められる場所での挑戦が、友人やコミュニティとの絆を深める機会に繋がります。</p></div>
+<div class="text-block lang" id="en"><p>Challenges that require emotional expression and creativity lead to opportunities for deepening bonds with friends and the community.</p></div>
+<div class="text-block lang" id="fr"><p>Les défis dans des endroits où l'expression des émotions et la créativité sont requises se transforment en opportunités de renforcer les liens avec des amis et la communauté.</p></div>
+<div class="text-block lang" id="es"><p>Los desafíos en lugares donde se requieren expresiones emocionales y creatividad se convierten en oportunidades para fortalecer los lazos con amigos y la comunidad.</p></div>
+<div class="text-block lang" id="pt"><p>Desafios em locais que exigem expressão emocional e criatividade se tornam oportunidades para fortalecer os laços com amigos e a comunidade.</p></div>
 
 <script>
   const lang = navigator.language.slice(0, 2);
