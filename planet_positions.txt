@@ -1,99 +1,95 @@
 You can Copy & Paste this data into ChatGPT (or other AI) for additional interpretations.
 Copy
-Sun in Pisces 8°01’, in 3rd House
-Moon in Cancer 5°47’, in 8th House
-Mercury in Pisces 22°33’, Stationary, in 4th House
-Venus in Pisces 20°15’, in 4th House
-Mars in Aquarius 26°52’, in 3rd House
-Jupiter in Cancer 15°20’, Retrograde, in 8th House
-Saturn in Aries 1°26’, in 4th House
-Uranus in Taurus 27°40’, in 6th House
-Neptune in Aries 0°57’, in 4th House
-Pluto in Aquarius 4°28’, in 3rd House
-North Node in Pisces 9°10’, Retrograde, in 3rd House
-Lilith in Sagittarius 7°36’, in 1st House
-Chiron in Aries 23°56’, in 5th House
-Fortune in Leo 0°39’, in 8th House
-Vertex in Cancer 15°14’, in 8th House
-ASC in Scorpio 28°25’
-MC in Virgo 9°36’
+Sun in Pisces 9°01’, in 3rd House
+Moon in Cancer 19°54’, in 8th House
+Mercury in Pisces 22°25’, Retrograde, in 4th House
+Venus in Pisces 21°30’, in 4th House
+Mars in Aquarius 27°39’, in 3rd House
+Jupiter in Cancer 15°18’, Retrograde, in 8th House
+Saturn in Aries 1°33’, in 4th House
+Uranus in Taurus 27°42’, in 6th House
+Neptune in Aries 0°59’, in 4th House
+Pluto in Aquarius 4°29’, in 2nd House
+North Node in Pisces 9°07’, Retrograde, in 3rd House
+Lilith in Sagittarius 7°42’, in 1st House
+Chiron in Aries 23°58’, in 5th House
+Fortune in Cancer 18°21’, in 8th House
+Vertex in Cancer 15°59’, in 8th House
+ASC in Scorpio 29°14’
+MC in Virgo 10°40’
 House positions:
 Copy
-1st House in Scorpio 28°25’
-2nd House in Sagittarius 29°09’
-3rd House in Aquarius 4°00’
-4th House in Pisces 9°36’
-5th House in Aries 11°01’
-6th House in Taurus 6°45’
-7th House in Taurus 28°25’
-8th House in Gemini 29°09’
-9th House in Leo 4°00’
-10th House in Virgo 9°36’
-11th House in Libra 11°01’
-12th House in Scorpio 6°45’
+1st House in Scorpio 29°14’
+2nd House in Capricorn 0°03’
+3rd House in Aquarius 5°02’
+4th House in Pisces 10°40’
+5th House in Aries 11°59’
+6th House in Taurus 7°36’
+7th House in Taurus 29°14’
+8th House in Cancer 0°03’
+9th House in Leo 5°02’
+10th House in Virgo 10°40’
+11th House in Libra 11°59’
+12th House in Scorpio 7°36’
 Planet aspects:
 Copy
-Sun Trine Moon (Orb: 2°13’, Applying)
-Sun Trine Jupiter (Orb: 7°19’, Applying)
-Moon Trine Mars (Orb: 8°55’, Separating)
-Moon Conjunction Jupiter (Orb: 9°32’, Applying)
-Moon Square Saturn (Orb: 4°21’, Separating)
-Moon Square Neptune (Orb: 4°50’, Separating)
-Mercury Conjunction Venus (Orb: 2°18’, Applying)
-Venus Trine Jupiter (Orb: 4°54’, Separating)
-Mars Square Uranus (Orb: 0°48’, Applying)
-Saturn Sextile Uranus (Orb: 3°45’, Separating)
-Saturn Conjunction Neptune (Orb: 0°28’, Separating)
-Saturn Sextile Pluto (Orb: 3°01’, Applying)
-Uranus Sextile Neptune (Orb: 3°16’, Separating)
+Sun Trine Jupiter (Orb: 6°16’, Applying)
+Moon Trine Mercury (Orb: 2°30’, Applying)
+Moon Trine Venus (Orb: 1°35’, Applying)
+Moon Conjunction Jupiter (Orb: 4°36’, Separating)
+Mercury Conjunction Venus (Orb: 0°55’, Applying)
+Venus Trine Jupiter (Orb: 6°11’, Separating)
+Mars Square Uranus (Orb: 0°02’, Applying)
+Saturn Sextile Uranus (Orb: 3°51’, Separating)
+Saturn Conjunction Neptune (Orb: 0°33’, Separating)
+Saturn Sextile Pluto (Orb: 2°56’, Applying)
+Uranus Sextile Neptune (Orb: 3°17’, Separating)
 Uranus Trine Pluto (Orb: 6°47’, Separating)
 Neptune Sextile Pluto (Orb: 3°30’, Applying)
 Other aspects:
 Copy
-Ascendant Square Sun (Orb: 9°35’, Applying)
-Ascendant Trine Mercury (Orb: 5°52’, Separating)
-Ascendant Square Mars (Orb: 1°33’, Separating)
-Ascendant Trine Saturn (Orb: 3°00’, Applying)
-Ascendant Opposition Uranus (Orb: 0°44’, Separating)
-Ascendant Trine Neptune (Orb: 2°31’, Applying)
-DSC Square Sun (Orb: 9°35’, Applying)
-DSC Square Mars (Orb: 1°33’, Separating)
-DSC Sextile Saturn (Orb: 3°00’, Applying)
-DSC Conjunction Uranus (Orb: 0°44’, Separating)
-DSC Sextile Neptune (Orb: 2°31’, Applying)
-DSC Trine Pluto (Orb: 6°02’, Applying)
-MC Opposition Sun (Orb: 1°35’, Separating)
-MC Sextile Moon (Orb: 3°49’, Separating)
-MC Opposition Node (Orb: 0°26’, Separating)
-MC Square Lilith (Orb: 2°00’, Separating)
-IC Conjunction Sun (Orb: 1°35’, Separating)
-IC Trine Moon (Orb: 3°49’, Separating)
-IC Trine Jupiter (Orb: 5°43’, Applying)
-IC Conjunction Node (Orb: 0°26’, Separating)
-IC Square Lilith (Orb: 2°00’, Separating)
-Node Conjunction Sun (Orb: 1°09’, Applying)
-Node Trine Moon (Orb: 3°22’, Applying)
-Node Trine Jupiter (Orb: 6°10’, Separating)
-Node Square Lilith (Orb: 1°34’, Applying)
-Lilith Square Sun (Orb: 0°25’, Separating)
+Ascendant Square Sun (Orb: 9°47’, Applying)
+Ascendant Trine Moon (Orb: 9°19’, Separating)
+Ascendant Trine Mercury (Orb: 6°48’, Separating)
+Ascendant Square Mars (Orb: 1°34’, Separating)
+Ascendant Trine Saturn (Orb: 2°19’, Applying)
+Ascendant Opposition Uranus (Orb: 1°31’, Separating)
+Ascendant Trine Neptune (Orb: 1°45’, Applying)
+DSC Square Sun (Orb: 9°47’, Applying)
+DSC Square Mars (Orb: 1°34’, Separating)
+DSC Sextile Saturn (Orb: 2°19’, Applying)
+DSC Conjunction Uranus (Orb: 1°31’, Separating)
+DSC Sextile Neptune (Orb: 1°45’, Applying)
+DSC Trine Pluto (Orb: 5°15’, Applying)
+MC Opposition Sun (Orb: 1°38’, Separating)
+MC Opposition Node (Orb: 1°33’, Separating)
+MC Square Lilith (Orb: 2°57’, Separating)
+IC Conjunction Sun (Orb: 1°38’, Separating)
+IC Trine Moon (Orb: 9°14’, Applying)
+IC Trine Jupiter (Orb: 4°37’, Applying)
+IC Conjunction Node (Orb: 1°33’, Separating)
+IC Square Lilith (Orb: 2°57’, Separating)
+Node Conjunction Sun (Orb: 0°05’, Applying)
+Node Trine Jupiter (Orb: 6°11’, Separating)
+Node Square Lilith (Orb: 1°24’, Applying)
+Lilith Square Sun (Orb: 1°18’, Separating)
 Lilith Trine Saturn (Orb: 6°09’, Applying)
-Lilith Trine Neptune (Orb: 6°38’, Separating)
-Lilith Sextile Pluto (Orb: 3°07’, Separating)
-Chiron Sextile Mars (Orb: 2°56’, Separating)
-Fortune Trine Saturn (Orb: 0°47’, Applying)
-Fortune Sextile Uranus (Orb: 2°58’, Separating)
-Fortune Trine Neptune (Orb: 0°18’, Applying)
-Fortune Opposition Pluto (Orb: 3°48’, Applying)
-Fortune Trine Lilith (Orb: 6°56’, Applying)
-Fortune Square Chiron (Orb: 6°43’, Separating)
-Fortune Trine Ascendant (Orb: 2°13’, Separating)
-Fortune Trine Vertex (Orb: 0°39’, Separating)
-Fortune Sextile DSC (Orb: 2°13’, Separating)
-Vertex Trine Sun (Orb: 7°12’, Separating)
-Vertex Conjunction Moon (Orb: 9°26’, Separating)
-Vertex Trine Venus (Orb: 5°01’, Applying)
-Vertex Conjunction Jupiter (Orb: 0°06’, Applying)
-Vertex Trine Node (Orb: 6°03’, Separating)
-Vertex Trine IC (Orb: 5°37’, Applying)
+Lilith Trine Neptune (Orb: 6°43’, Separating)
+Lilith Sextile Pluto (Orb: 3°12’, Separating)
+Chiron Square Moon (Orb: 4°04’, Applying)
+Chiron Sextile Mars (Orb: 3°40’, Separating)
+Fortune Trine Sun (Orb: 9°19’, Separating)
+Fortune Conjunction Moon (Orb: 1°33’, Applying)
+Fortune Trine Mercury (Orb: 4°04’, Applying)
+Fortune Trine Venus (Orb: 3°08’, Applying)
+Fortune Conjunction Jupiter (Orb: 3°02’, Separating)
+Fortune Square Chiron (Orb: 5°37’, Applying)
+Vertex Trine Sun (Orb: 6°57’, Separating)
+Vertex Conjunction Moon (Orb: 3°55’, Applying)
+Vertex Trine Mercury (Orb: 6°25’, Applying)
+Vertex Trine Venus (Orb: 5°30’, Applying)
+Vertex Conjunction Jupiter (Orb: 0°41’, Separating)
+Vertex Trine Node (Orb: 6°52’, Separating)
+Vertex Trine IC (Orb: 5°19’, Applying)
 
-取得日時: 2026-02-27 00:00:00
+取得日時: 2026-02-28 00:00:00
